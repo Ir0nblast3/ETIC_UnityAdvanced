@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{719B66A0-1496-C920-643C-C8E69FEE465F}</ProjectGuid>
+    <ProjectGuid>{C6B47B8A-7459-5975-C97D-7B81B01C9FEA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>OccaSoftware.Crosshairs.Editor</AssemblyName>
