@@ -32,5 +32,11 @@ public class BulletBehaviour : MonoBehaviour, IPoolable
     private void OnTriggerEnter(Collider other)
     {
         PoolManager.Instance.ReturnBulletToPool(this);
+
+        IDamageable damagable = other.GetComponent<IDamageable>();
+        if (damagable != null) 
+        {
+            damagable.TakeDamage(20);
+        }
     }
 }

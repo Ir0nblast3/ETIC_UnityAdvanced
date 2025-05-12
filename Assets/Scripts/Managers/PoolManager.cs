@@ -32,6 +32,6 @@ public class PoolManager : MonoBehaviour
     public void ReturnBulletToPool(BulletBehaviour bullet)
     {
         BulletPool.ReturnToPool(bullet);
-        bullet.OnDespawn(); // Chama a lógica de despawn (limpeza)
+        bullet.OnDespawn();
     }
 }
