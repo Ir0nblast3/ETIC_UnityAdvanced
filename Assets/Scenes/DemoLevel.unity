@@ -3121,7 +3121,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'DOUBLE AMMO UPGRADE
 
-    (50$)'
+    (40$)'
 --- !u!222 &811459626
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3492,7 +3492,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 857449275}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 865131982}
+        m_TargetAssemblyTypeName: UpgradeStore, Assembly-CSharp
+        m_MethodName: TripleJumpUpgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &857449275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4834,7 +4846,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'DOUBLE DAMAGE UPGRADE
 
-    (50$)'
+    (40$)'
 --- !u!222 &1225073477
 CanvasRenderer:
   m_ObjectHideFlags: 0

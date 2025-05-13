@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletBehaviour : MonoBehaviour, IPoolable
+public class BulletBehaviour :BaseGun, IPoolable
 {
     [SerializeField] private float _speed = 15f;
     [SerializeField] private float _lifeTime = 2f;
@@ -36,7 +36,7 @@ public class BulletBehaviour : MonoBehaviour, IPoolable
         IDamageable damagable = other.GetComponent<IDamageable>();
         if (damagable != null) 
         {
-            damagable.TakeDamage(20);
+            damagable.TakeDamage(GunDamage);
         }
     }
 }

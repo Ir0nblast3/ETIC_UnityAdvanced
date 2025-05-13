@@ -16,11 +16,13 @@ public class BaseGun : MonoBehaviour
     private float _timePassed; 
     private int _maxBullets = 20;
     private int _bullets;
+    private float _gunDamage = 20;
 
     [SerializeField] private Transform _firePoint;
 
     public int Bullets { get => _bullets; set => _bullets = value; }
     public int MaxBullets { get => _maxBullets; }
+    public float GunDamage { get => _gunDamage; set => _gunDamage = value; }
 
     #endregion
 

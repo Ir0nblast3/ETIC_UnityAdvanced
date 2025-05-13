@@ -22,8 +22,10 @@ public class PlayerCharacter : MonoBehaviour
 
     private float hp = 100;
     private int _jumpsLeft;
+    private int _maxJumps = 1;
 
     public BaseGun EquippedGun { get => _equippedGun; }
+    public int MaxJumps { get => _maxJumps; set => _maxJumps = value; }
 
     #endregion
 
@@ -44,7 +46,7 @@ public class PlayerCharacter : MonoBehaviour
     {
         if (Physics.Raycast(transform.position, Vector3.down, 1.1f))
         {
-            _jumpsLeft = 1;
+            _jumpsLeft = _maxJumps;
         }
 
         if (GameManager.instance.IsPaused == false) 

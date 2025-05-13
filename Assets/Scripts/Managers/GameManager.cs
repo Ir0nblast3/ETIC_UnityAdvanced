@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
 
     public bool IsPaused { get => _isPaused; set => _isPaused = value; }
     public bool HideCursor { get => _hideCursor; set => _hideCursor = value; }
+    public float PlayerCoinNumber { get => _playerCoinNumber; set => _playerCoinNumber = value; }
 
     private void Awake()
     {
@@ -104,9 +105,15 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void AddCoin()
+    public void AddCoin(int value)
     {
-        _playerCoinNumber++;
+        _playerCoinNumber += value;
+        _uiManager.UpdateCoins(_playerCoinNumber);
+    }
+
+    public void RemoveCoin(int value)
+    {
+        _playerCoinNumber -= value;
         _uiManager.UpdateCoins(_playerCoinNumber);
     }
 

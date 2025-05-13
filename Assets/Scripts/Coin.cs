@@ -8,6 +8,6 @@ public class Coin : MonoBehaviour, ICollectable
     {
         Debug.Log("Coin Picked!");
         Destroy(gameObject);
-        GameManager.instance.AddCoin();
+        GameManager.instance.AddCoin(1);
     }
 }
