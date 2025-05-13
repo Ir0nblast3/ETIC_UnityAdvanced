@@ -2236,6 +2236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a58f433fcc5784ba3bbbfacd51b6dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _poolSize: 20
   _bulletPrefab: {fileID: 1624490389073674080, guid: 4b89d0d566fe9994085afc5bf30afd07, type: 3}
 --- !u!1 &658363557 stripped
 GameObject:

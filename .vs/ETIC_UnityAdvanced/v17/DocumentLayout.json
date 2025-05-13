@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|c:\\users\\tpafo\\onedrive\\documentos\\github\\etic_unityadvanced\\assets\\scripts\\genericpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\upgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|c:\\users\\tpafo\\onedrive\\documentos\\github\\etic_unityadvanced\\assets\\scripts\\upgradestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgradestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\healthpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\genericpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\genericpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|c:\\users\\tpafo\\onedrive\\documentos\\github\\etic_unityadvanced\\assets\\scripts\\explosivebarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\explosivebarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\explosivebarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\bulletbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\ammocrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ammocrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +51,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UpgradeStore.cs",
+              "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\UpgradeStore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UpgradeStore.cs",
+              "ToolTip": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\UpgradeStore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UpgradeStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:48:35.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Upgrades.cs",
+              "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Upgrades.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades.cs",
+              "ToolTip": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Upgrades.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Upgrades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:48:29.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HealthPack.cs",
+              "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\HealthPack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPack.cs",
+              "ToolTip": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\HealthPack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthPack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:48:26.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Coin.cs",
+              "ToolTip": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:48:20.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AmmoCrate.cs",
+              "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\AmmoCrate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AmmoCrate.cs",
+              "ToolTip": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\AmmoCrate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AmmoCrate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:48:11.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BulletBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\BulletBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletBehaviour.cs",
+              "ToolTip": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\BulletBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:48:05.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ExplosiveBarrel.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\ExplosiveBarrel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExplosiveBarrel.cs",
@@ -34,12 +132,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ExplosiveBarrel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:15:30.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T15:15:30.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GenericPool.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\GenericPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenericPool.cs",
@@ -47,8 +144,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GenericPool.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:52:19.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T14:52:19.007Z"
             }
           ]
         }
