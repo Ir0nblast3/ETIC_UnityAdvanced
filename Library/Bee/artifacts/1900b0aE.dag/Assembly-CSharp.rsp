@@ -350,6 +350,7 @@
 "Assets/Scripts/ExplosiveBarrel.cs"
 "Assets/Scripts/GenericPool.cs"
 "Assets/Scripts/HealthPack.cs"
+"Assets/Scripts/HealthPackSpawner.cs"
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/MainMenuManager.cs"
 "Assets/Scripts/Managers/PoolManager.cs"

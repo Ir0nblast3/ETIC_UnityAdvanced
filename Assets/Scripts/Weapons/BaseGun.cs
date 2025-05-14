@@ -21,8 +21,9 @@ public class BaseGun : MonoBehaviour
     [SerializeField] private Transform _firePoint;
 
     public int Bullets { get => _bullets; set => _bullets = value; }
-    public int MaxBullets { get => _maxBullets; }
+    
     public float GunDamage { get => _gunDamage; set => _gunDamage = value; }
+    public int MaxBullets { get => _maxBullets; set => _maxBullets = value; }
 
     #endregion
 

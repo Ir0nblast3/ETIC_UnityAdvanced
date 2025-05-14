@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Managers\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\Public_Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Scripts\Enemy\BaseEnemy.cs" />
+    <Compile Include="Assets\Scripts\HealthPackSpawner.cs" />
     <Compile Include="Assets\Scripts\Public_Interfaces\ICollectable.cs" />
     <Compile Include="Assets\Scripts\Upgrades.cs" />
     <Compile Include="Assets\Scripts\AmmoCrate.cs" />
