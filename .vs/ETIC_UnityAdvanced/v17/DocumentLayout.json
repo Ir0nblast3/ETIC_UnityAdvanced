@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|c:\\users\\tpafo\\onedrive\\documentos\\github\\etic_unityadvanced\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|c:\\users\\tpafo\\onedrive\\documentos\\github\\etic_unityadvanced\\assets\\scripts\\upgradestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgradestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|c:\\users\\tpafo\\onedrive\\documentos\\github\\etic_unityadvanced\\assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\basegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|c:\\users\\tpafo\\onedrive\\documentos\\github\\etic_unityadvanced\\assets\\scripts\\healthpackspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\assets\\scripts\\healthpackspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66265987-0061-9D45-0EFE-96CA37B7DB67}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpackspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:55:24.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Managers\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\UIManager.cs",
@@ -86,12 +103,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\UIManager.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:40:46.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T15:40:46.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HealthPackSpawner.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\HealthPackSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPackSpawner.cs",
@@ -99,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthPackSpawner.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:59:55.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T13:59:55.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BulletBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\BulletBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletBehaviour.cs",
@@ -112,12 +127,11 @@
               "RelativeToolTip": "Assets\\Scripts\\BulletBehaviour.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:48:05.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T15:48:05.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WalkerEnemy.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Enemy\\WalkerEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\WalkerEnemy.cs",
@@ -125,12 +139,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\WalkerEnemy.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:52:14.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T16:52:14.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
@@ -138,12 +151,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAmwHsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:11:15.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T16:11:15.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PlayerCharacter.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Player\\PlayerCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCharacter.cs",
@@ -151,12 +163,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCharacter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:10:52.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T16:10:52.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UpgradeStore.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\UpgradeStore.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UpgradeStore.cs",
@@ -169,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Coin.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Coin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Coin.cs",
@@ -181,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HealthPack.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\HealthPack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPack.cs",
@@ -189,12 +200,11 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthPack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:48:26.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T15:48:26.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BaseGun.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Weapons\\BaseGun.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\BaseGun.cs",
@@ -202,12 +212,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Weapons\\BaseGun.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:49:24.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T16:49:24.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AmmoCrate.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\AmmoCrate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AmmoCrate.cs",
@@ -215,12 +224,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AmmoCrate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:48:11.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T15:48:11.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Public_Interfaces\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Public_Interfaces\\IDamageable.cs",
@@ -232,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BaseEnemy.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\Enemy\\BaseEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BaseEnemy.cs",
@@ -244,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ExplosiveBarrel.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\ExplosiveBarrel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExplosiveBarrel.cs",
@@ -256,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GenericPool.cs",
               "DocumentMoniker": "C:\\Users\\tpafo\\OneDrive\\Documentos\\GitHub\\ETIC_UnityAdvanced\\Assets\\Scripts\\GenericPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenericPool.cs",

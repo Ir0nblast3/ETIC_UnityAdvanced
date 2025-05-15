@@ -347,6 +347,7 @@
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/Enemy/BaseEnemy.cs"
 "Assets/Scripts/Enemy/WalkerEnemy.cs"
+"Assets/Scripts/EnemySpawner.cs"
 "Assets/Scripts/ExplosiveBarrel.cs"
 "Assets/Scripts/GenericPool.cs"
 "Assets/Scripts/HealthPack.cs"

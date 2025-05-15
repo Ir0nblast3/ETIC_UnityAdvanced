@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\HealthPackSpawner.cs" />
     <Compile Include="Assets\Scripts\Public_Interfaces\ICollectable.cs" />
     <Compile Include="Assets\Scripts\Upgrades.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\AmmoCrate.cs" />
     <Compile Include="Assets\Scripts\Public_Interfaces\IPoolable.cs" />
     <Compile Include="Assets\Scripts\Weapons\BaseGun.cs" />
