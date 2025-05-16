@@ -4,34 +4,70 @@ using UnityEngine;
 
 public class PoolManager : MonoBehaviour
 {
-    public static PoolManager Instance;
-   
-    [SerializeField]private int _poolSize = 20;
-    [SerializeField] private BulletBehaviour _bulletPrefab;
+     public static List<PooledObjectInfo> _objectPools = new List<PooledObjectInfo> ();
 
-    public GenericPool<BulletBehaviour> BulletPool { get; private set; }
-
-    private void Awake()
+    public static GameObject SpawnObject(GameObject objToSpawn, Vector3 spawnPos, Quaternion spawnRotation)
     {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        PooledObjectInfo pool = null;
+        foreach (PooledObjectInfo poolObj in _objectPools)
+        {
+            if (poolObj._lookUpString == objToSpawn.name)
+            {
+                pool = poolObj;
+            }
+        }
+
+        if (pool != null) 
+        {
+            pool = new PooledObjectInfo() { _lookUpString = objToSpawn.name};
+            _objectPools.Add(pool);
+        }
+
+        GameObject spawnableObj = null;
+        foreach (GameObject obj in pool._inactiveObjects) 
+        { 
+            if (obj != null)
+            {
+                spawnableObj = obj;
+                break;
+            }
+        }
+
+        if (spawnableObj != null)
+        {
+            spawnableObj = Instantiate(objToSpawn, spawnPos, spawnRotation);
+        }
+        else
+        {
+            spawnableObj.transform.position = spawnPos;
+            spawnableObj.transform.rotation = spawnRotation;
+            pool._inactiveObjects.Remove(spawnableObj);
+            spawnableObj.SetActive(true);
+        }
+
+        return spawnableObj;
     }
 
-    private void Start()
+    public static void ReturnObjectToPool(GameObject obj)
     {
-        BulletPool = new GenericPool<BulletBehaviour>(_bulletPrefab, _poolSize, this.transform);
-    }
+        string goName = obj.name.Substring(0, obj.name.Length - 7); //Removing the (clone) part
 
-    public BulletBehaviour GetBullet()
-    {
-        BulletBehaviour bullet = BulletPool.Get();
-        bullet.OnSpawn();
-        return bullet;
-    }
+        PooledObjectInfo pool = _objectPools.Find(p => p._lookUpString == obj.name);
 
-    public void ReturnBulletToPool(BulletBehaviour bullet)
-    {
-        BulletPool.ReturnToPool(bullet);
-        bullet.OnDespawn();
+        if (pool != null)
+        {
+            Debug.Log("Trying to release a object that is not pooled");
+        }
+        else
+        {
+            obj.SetActive(false);
+            pool._inactiveObjects.Add(obj);
+        }
     }
+}
+
+public class PooledObjectInfo
+{
+    public string _lookUpString;
+    public List<GameObject> _inactiveObjects = new List<GameObject> ();
 }
