@@ -1,23 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Pool;
 
-public class BulletBehaviour :BaseGun, IPoolable
+public class BulletBehaviour :BaseGun
 {
     [SerializeField] private float _speed = 15f;
-    [SerializeField] private float _lifeTime = 2f;
     [SerializeField] private float _timer;
-
-    public void OnDespawn()
-    {
-        
-    }
-
-    public void OnSpawn()
-    {
-        _timer = _lifeTime;
-    }
-
     void Update()
     {
         transform.Translate(Vector3.forward * _speed * Time.deltaTime);
@@ -25,17 +14,13 @@ public class BulletBehaviour :BaseGun, IPoolable
 
         if (_timer <= 0f)
         {
-            //PoolManager.Instance.ReturnBulletToPool(this);
-
-            PoolManager.ReturnObjectToPool(gameObject);
+            BulletPool.instance.ReturnBullet(gameObject);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        //PoolManager.Instance.ReturnBulletToPool(this);
-
-        PoolManager.ReturnObjectToPool(gameObject);
+        BulletPool.instance.ReturnBullet(gameObject);
 
         IDamageable damagable = other.GetComponent<IDamageable>();
         if (damagable != null) 
@@ -43,4 +28,5 @@ public class BulletBehaviour :BaseGun, IPoolable
             damagable.TakeDamage(GunDamage);
         }
     }
+
 }

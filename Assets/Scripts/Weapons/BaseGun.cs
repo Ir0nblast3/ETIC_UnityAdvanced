@@ -22,9 +22,9 @@ public class BaseGun : MonoBehaviour
     [SerializeField] private GameObject _bulletPrefab;
 
     public int Bullets { get => _bullets; set => _bullets = value; }
-    
-    public float GunDamage { get => _gunDamage; set => _gunDamage = value; }
     public int MaxBullets { get => _maxBullets; set => _maxBullets = value; }
+    public Transform FirePoint { get => _firePoint; }
+    public float GunDamage { get => _gunDamage; set => _gunDamage = value; }
 
     #endregion
 
@@ -59,7 +59,14 @@ public class BaseGun : MonoBehaviour
             _bullets--;
             _timePassed = 0;
 
-            PoolManager.SpawnObject(_bulletPrefab, _firePoint.position, Quaternion.identity);
+            GameObject bullet = BulletPool.instance.GetBullet();
+
+            if (bullet != null) 
+            {
+                bullet.transform.position = _firePoint.transform.position;
+                bullet.transform.rotation = _firePoint.transform.rotation;
+                bullet.SetActive(true);
+            }
 
         }
     }
