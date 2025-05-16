@@ -25,13 +25,17 @@ public class BulletBehaviour :BaseGun, IPoolable
 
         if (_timer <= 0f)
         {
-            PoolManager.Instance.ReturnBulletToPool(this);
+            //PoolManager.Instance.ReturnBulletToPool(this);
+
+            PoolManager.ReturnObjectToPool(gameObject);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        PoolManager.Instance.ReturnBulletToPool(this);
+        //PoolManager.Instance.ReturnBulletToPool(this);
+
+        PoolManager.ReturnObjectToPool(gameObject);
 
         IDamageable damagable = other.GetComponent<IDamageable>();
         if (damagable != null) 

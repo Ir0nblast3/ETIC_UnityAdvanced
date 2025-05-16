@@ -19,6 +19,7 @@ public class BaseGun : MonoBehaviour
     private float _gunDamage = 20;
 
     [SerializeField] private Transform _firePoint;
+    [SerializeField] private GameObject _bulletPrefab;
 
     public int Bullets { get => _bullets; set => _bullets = value; }
     
@@ -58,9 +59,7 @@ public class BaseGun : MonoBehaviour
             _bullets--;
             _timePassed = 0;
 
-            BulletBehaviour bullet = PoolManager.Instance.GetBullet();
-            bullet.transform.position = _firePoint.position;
-            bullet.transform.rotation = _firePoint.rotation;
+            PoolManager.SpawnObject(_bulletPrefab, _firePoint.position, Quaternion.identity);
 
         }
     }
