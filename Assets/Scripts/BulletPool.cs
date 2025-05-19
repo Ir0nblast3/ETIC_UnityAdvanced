@@ -20,6 +20,10 @@ public class BulletPool : MonoBehaviour
         {
             instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Start()
@@ -74,7 +78,7 @@ public class BulletPool : MonoBehaviour
         }
         else
         {
-            GameObject coin = Instantiate(bulletPrefab);
+            GameObject coin = Instantiate(coinPrefab);
             coin.SetActive(true);
             return coin;
         }

@@ -19,7 +19,7 @@ public class BaseGun : MonoBehaviour
     private float _gunDamage = 20;
 
     [SerializeField] private Transform _firePoint;
-    //[SerializeField] private GameObject _bulletPrefab;
+    [SerializeField] private GameObject _bulletPrefab;
 
     public int Bullets { get => _bullets; set => _bullets = value; }
     public int MaxBullets { get => _maxBullets; set => _maxBullets = value; }
@@ -59,7 +59,7 @@ public class BaseGun : MonoBehaviour
             _bullets--;
             _timePassed = 0;
 
-            GameObject bullet = BulletPool.instance.GetBullet();
+            GameObject bullet = ObjectPools.instance.GetFromPool(_bulletPrefab);
 
             if (bullet != null) 
             {
@@ -67,7 +67,6 @@ public class BaseGun : MonoBehaviour
                 bullet.transform.rotation = _firePoint.transform.rotation;
                 bullet.SetActive(true);
             }
-
         }
     }
 }

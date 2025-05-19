@@ -36,17 +36,16 @@ public class WalkerEnemy : MonoBehaviour, IDamageable
 
         if (_hp <= 0) 
         {
-            Destroy(gameObject);
+            ObjectPools.instance.ReturnToPool(gameObject);
             Debug.Log("Enemy died");
             
-            GameObject coin = BulletPool.instance.GetCoin();
+            GameObject coin = ObjectPools.instance.GetFromPool(_coinPrefab);
 
             if (coin != null) 
             {
                 coin.transform.position = transform.position;
                 coin.SetActive(true);
             }
-            //Instantiate(_coinPrefab, transform.position, Quaternion.Euler(0, 0, 90));
         }
     }
 

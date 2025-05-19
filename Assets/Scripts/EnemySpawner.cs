@@ -14,6 +14,13 @@ public class EnemySpawner : MonoBehaviour
 
     private void CreateEnemies()
     {
-        Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
+        GameObject enemy = ObjectPools.instance.GetFromPool(_enemyPrefab);
+
+        if (enemy != null)
+        {
+            enemy.transform.position = transform.position;
+            enemy.SetActive(true);
+        }
+        //Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
     }
 }

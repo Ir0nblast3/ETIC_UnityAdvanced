@@ -14,13 +14,13 @@ public class BulletBehaviour :BaseGun
 
         if (_timer <= 0f)
         {
-            BulletPool.instance.ReturnBullet(gameObject);
+            ObjectPools.instance.ReturnToPool(gameObject);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        BulletPool.instance.ReturnBullet(gameObject);
+        ObjectPools.instance.ReturnToPool(gameObject);
 
         IDamageable damagable = other.GetComponent<IDamageable>();
         if (damagable != null) 

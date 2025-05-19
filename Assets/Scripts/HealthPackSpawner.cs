@@ -33,7 +33,17 @@ public class HealthPackSpawner : MonoBehaviour
     private void SpawnHealthPack()
     {
         Vector3 spawnPosition = transform.position + Vector3.up * 1.2f;
-        _currentHealthPack = Instantiate(_healthPackPrefab, spawnPosition, Quaternion.identity);
-        Debug.Log("HealthPack Spawned1");
+        GameObject healthPack = ObjectPools.instance.GetFromPool(_healthPackPrefab);
+        _currentHealthPack = healthPack;
+        if (healthPack != null)
+        {
+            healthPack.transform.position = spawnPosition;
+            healthPack.SetActive(true);
+            Debug.Log("HealthPack Spawned");
+        }
+        
+        //Vector3 spawnPosition = transform.position + Vector3.up * 1.2f;
+        //_currentHealthPack = Instantiate(_healthPackPrefab, spawnPosition, Quaternion.identity);
+        //Debug.Log("HealthPack Spawned1");
     }  
 }

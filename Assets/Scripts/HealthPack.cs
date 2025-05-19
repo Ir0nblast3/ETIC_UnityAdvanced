@@ -8,6 +8,6 @@ public class HealthPack : MonoBehaviour, ICollectable
     {
         player.GainHealth(40);
         Debug.Log("Health recovered!");
-        Destroy(gameObject);
+        ObjectPools.instance.ReturnToPool(gameObject);
     }
 }
