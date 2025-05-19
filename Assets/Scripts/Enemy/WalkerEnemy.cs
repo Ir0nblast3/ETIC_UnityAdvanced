@@ -29,7 +29,15 @@ public class WalkerEnemy : MonoBehaviour, IDamageable
         {
             Destroy(gameObject);
             Debug.Log("Enemy died");
-            Instantiate(_coinPrefab, transform.position, Quaternion.Euler(0, 0, 90));
+            
+            GameObject coin = BulletPool.instance.GetCoin();
+
+            if (coin != null) 
+            {
+                coin.transform.position = transform.position;
+                coin.SetActive(true);
+            }
+            //Instantiate(_coinPrefab, transform.position, Quaternion.Euler(0, 0, 90));
         }
     }
 

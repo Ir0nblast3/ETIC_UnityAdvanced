@@ -1534,7 +1534,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 6.200012, y: -6.299988}
+  m_AnchoredPosition: {x: 6.199951, y: -6.299988}
   m_SizeDelta: {x: 158, y: 24}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &386711208
@@ -5927,7 +5927,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1758793313}
-  - component: {fileID: 1758793312}
   - component: {fileID: 1758793314}
   m_Layer: 0
   m_Name: BulletPool
@@ -5936,20 +5935,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1758793312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758793311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20e24ba55ade2bb4daee93475c7abcf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  poolSize: 0
 --- !u!4 &1758793313
 Transform:
   m_ObjectHideFlags: 0
@@ -5958,8 +5943,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758793311}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4691067, y: -1.4618711, z: 5.647498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.4691067, y: -1.4618714, z: 5.647498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5978,7 +5963,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8227925939977670692, guid: 4b89d0d566fe9994085afc5bf30afd07, type: 3}
-  poolSize: 20
+  coinPrefab: {fileID: 2957094293127823034, guid: 5536f83c67ff5ec4b9bbcaa934686042, type: 3}
+  poolSize: 10
 --- !u!4 &1764190428 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6548256953922045316, guid: e508392bf2c1e8540a148c997757a942, type: 3}
@@ -6113,7 +6099,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fireRate: 0.2
   _firePoint: {fileID: 2067200137}
-  _bulletPrefab: {fileID: 8227925939977670692, guid: 4b89d0d566fe9994085afc5bf30afd07, type: 3}
 --- !u!65 &1791257402
 BoxCollider:
   m_ObjectHideFlags: 0
