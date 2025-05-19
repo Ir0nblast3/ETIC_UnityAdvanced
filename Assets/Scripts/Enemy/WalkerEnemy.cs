@@ -16,6 +16,15 @@ public class WalkerEnemy : MonoBehaviour, IDamageable
         _agent = GetComponent<NavMeshAgent>();
     }
 
+    private void Start()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null) 
+        { 
+            _target = player.transform;
+        }
+    }
+
     void Update()
     {
         _agent.SetDestination(_target.position);

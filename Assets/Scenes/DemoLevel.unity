@@ -3501,7 +3501,7 @@ GameObject:
   - component: {fileID: 921964644}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6097,7 +6097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5183f47e69c3c9419661597bf412e24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fireRate: 0.2
+  _fireRate: 0.4
   _firePoint: {fileID: 2067200137}
 --- !u!65 &1791257402
 BoxCollider:

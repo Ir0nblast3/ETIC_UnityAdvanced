@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour, ICollectable
     public void Collect(PlayerCharacter player)
     {
         Debug.Log("Coin Picked!");
-        Destroy(gameObject);
+        BulletPool.instance.ReturnCoin(gameObject);
         GameManager.instance.AddCoin(1);
     }
 }
