@@ -66,6 +66,10 @@ public class BaseGun : MonoBehaviour
                 bullet.transform.position = _firePoint.transform.position;
                 bullet.transform.rotation = _firePoint.transform.rotation;
                 bullet.SetActive(true);
+
+                BulletBehaviour bulletBehaviour = bullet.GetComponent<BulletBehaviour>();
+                bulletBehaviour.BulletTimer();
+
             }
         }
     }

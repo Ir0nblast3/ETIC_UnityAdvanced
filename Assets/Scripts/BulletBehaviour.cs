@@ -7,14 +7,21 @@ public class BulletBehaviour :BaseGun
 {
     [SerializeField] private float _speed = 15f;
     [SerializeField] private float _timer;
+    private bool _canStart = false;
+
     void Update()
     {
         transform.Translate(Vector3.forward * _speed * Time.deltaTime);
-        _timer -= Time.deltaTime;
-
-        if (_timer <= 0f)
+       
+        if (_canStart == true)
         {
-            ObjectPools.instance.ReturnToPool(gameObject);
+            _timer -= Time.deltaTime;
+
+            if (_timer <= 0f)
+            {
+                ObjectPools.instance.ReturnToPool(gameObject);
+                _canStart = false;
+            }
         }
     }
 
@@ -27,6 +34,12 @@ public class BulletBehaviour :BaseGun
         {
             damagable.TakeDamage(GunDamage);
         }
+    }
+
+    public void BulletTimer()
+    {
+        _timer = 2f;
+        _canStart = true;
     }
 
 }
