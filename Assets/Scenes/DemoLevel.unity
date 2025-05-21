@@ -7008,10 +7008,10 @@ MonoBehaviour:
     poolSize: 10
   - prefab: {fileID: 2957094293127823034, guid: 5536f83c67ff5ec4b9bbcaa934686042, type: 3}
     poolSize: 20
-  - prefab: {fileID: 1932564833705313609, guid: fbd67221c47667d49ac8120bf08226eb, type: 3}
-    poolSize: 2
   - prefab: {fileID: 7505988549400487802, guid: c73ce7a2851706a4382df6e8daad3265, type: 3}
     poolSize: 15
+  - prefab: {fileID: 1932564833705313609, guid: fbd67221c47667d49ac8120bf08226eb, type: 3}
+    poolSize: 3
 --- !u!4 &2002034400
 Transform:
   m_ObjectHideFlags: 0
