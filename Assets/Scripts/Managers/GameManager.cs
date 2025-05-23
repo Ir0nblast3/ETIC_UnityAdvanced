@@ -60,19 +60,16 @@ public class GameManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
         }
     }
-    //public void ToggleCursor(bool toggle)
-    //{
-    //    if (toggle == true)
-    //    {
-    //        Cursor.visible = true;
-    //        Cursor.lockState = CursorLockMode.None;
-    //    }
-    //    else
-    //    {
-    //        Cursor.visible = false;
-    //        Cursor.lockState = CursorLockMode.Locked;
-    //    }
-    //}
+
+    private void OnEnable()
+    {
+        PlayerCharacter.OnPlayerDeath += LostGame;
+    }
+
+    private void OnDesable()
+    {
+        PlayerCharacter.OnPlayerDeath -= LostGame;
+    }
     public void PauseGame()
     {
         _uiManager.TogglePause(true);

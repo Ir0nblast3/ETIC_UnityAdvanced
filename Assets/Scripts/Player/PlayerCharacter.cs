@@ -1,5 +1,6 @@
 #region Namespaces/Directives
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +24,8 @@ public class PlayerCharacter : MonoBehaviour
     private float hp = 100;
     private int _jumpsLeft;
     private int _maxJumps = 1;
+
+    public static event Action OnPlayerDeath;
 
     public BaseGun EquippedGun { get => _equippedGun; }
     public int MaxJumps { get => _maxJumps; set => _maxJumps = value; }
@@ -128,7 +131,7 @@ public class PlayerCharacter : MonoBehaviour
 
         if (hp <= 0)
         {
-            GameManager.instance.LostGame();
+            OnPlayerDeath?.Invoke();
         }
 
     }
