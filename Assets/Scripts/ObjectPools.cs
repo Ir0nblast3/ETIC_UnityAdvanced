@@ -24,8 +24,13 @@ public class ObjectPools : MonoBehaviour
 
     private void Start()
     {
-        foreach (PoolEntry entry in initialPools)
+        //foreach (PoolEntry entry in initialPools)
+        //{
+        //CreatePools(entry.prefab, entry.poolSize);
+        //}
+        for (int i = 0; i < initialPools.Count; i++)
         {
+            PoolEntry entry = initialPools[i];
             CreatePools(entry.prefab, entry.poolSize);
         }
     }
